@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Privilege:analyticPrivilege xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Privilege="http://www.sap.com/ndb/BiModelPrivilege.ecore" schemaVersion="1.1" id="A_P_7402" privilegeType="ANALYTIC_PRIVILEGE">
+  <descriptions defaultDescription="Analytic Privilege  7402"/>
+  <securedModels allInformationModels="false">
+    <modelUri>/ZPAG7402/calculationviews/ZPP000500</modelUri>
+    <modelUri>/ZPAG7402/calculationviews/ZPP000600</modelUri>
+    <modelUri>/ZPAG7402/calculationviews/ZPP000700</modelUri>
+    <modelUri>/ZPAG7402/calculationviews/ZPP000800</modelUri>
+    <modelUri>/ZPAG7402/calculationviews/ZPP000900</modelUri>
+    <modelUri>/ZPAG7402/calculationviews/ZPP001000</modelUri>
+    <modelUri>/ZPAG7402/calculationviews/ZPP001100</modelUri>
+    <modelUri>/ZPAG7402/calculationviews/ZPP001200</modelUri>
+    <modelUri>/ZPAG0000.ZPPPG001/calculationviews/ZSTOCKQTY</modelUri>
+    <modelUri>/ZPAG0000.ZPPPG001/calculationviews/ZBOMINFO</modelUri>
+    <modelUri>/ZPAG0000.ZPPPG001/calculationviews/ZSTOCKINTRANSIT</modelUri>
+    <modelUri>/ZPAG7402/calculationviews/ZPP001300</modelUri>
+  </securedModels>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="MANDT">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" operator="NL" including="false" value=""/>
+    </filter>
+    <attributeName>MANDT</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP000800</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="MANDT">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" operator="NL" including="false" value=""/>
+    </filter>
+    <attributeName>MANDT</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP000500</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="MANDT">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" operator="NL" including="false" value=""/>
+    </filter>
+    <attributeName>MANDT</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP000600</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="MANDT">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" operator="NL" including="false" value=""/>
+    </filter>
+    <attributeName>MANDT</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP000700</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="WERKS">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="7402"/>
+    </filter>
+    <attributeName>WERKS</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP000900</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="MANDT">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" operator="NL" including="false" value=""/>
+    </filter>
+    <attributeName>MANDT</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP001000</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="TRCIDX">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" operator="NL" including="false" value=""/>
+    </filter>
+    <attributeName>TRCIDX</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP001100</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="TRCIDX">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" operator="NL" including="false" value=""/>
+    </filter>
+    <attributeName>TRCIDX</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP001200</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="WERKS">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="7402"/>
+    </filter>
+    <attributeName>WERKS</attributeName>
+    <originInformationModelUri>/ZPAG0000.ZPPPG001/calculationviews/ZSTOCKQTY</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="WERKS">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="7402"/>
+    </filter>
+    <attributeName>WERKS</attributeName>
+    <originInformationModelUri>/ZPAG0000.ZPPPG001/calculationviews/ZBOMINFO</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="WERKS">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="7402"/>
+    </filter>
+    <attributeName>WERKS</attributeName>
+    <originInformationModelUri>/ZPAG0000.ZPPPG001/calculationviews/ZSTOCKINTRANSIT</originInformationModelUri>
+  </restriction>
+  <restriction logicalOperator="AND">
+    <filter xsi:type="Privilege:AttributeFilter" attributeName="_BIC_NBICH0773">
+      <valueFilter xsi:type="AccessControl:SingleValueFilter" operator="NL" including="false" value=""/>
+    </filter>
+    <attributeName>_BIC_NBICH0773</attributeName>
+    <originInformationModelUri>/ZPAG7402/calculationviews/ZPP001300</originInformationModelUri>
+  </restriction>
+</Privilege:analyticPrivilege>
