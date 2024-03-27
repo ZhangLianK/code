@@ -17,9 +17,11 @@ print("hello third!")
 print("hello fourth!")
 print("hello fifth!")
 print("hello sixth!")
-<<<<<<< HEAD
+
 print("hello seventh!")
-=======
+
 print("hello fourth!")
 
->>>>>>> c62e906890cf64317d0b382ff17503de40a0d29f
+
+print("hello fourth!")
+
