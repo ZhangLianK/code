@@ -9,3 +9,20 @@ for i in list:
 print(list)
 print("All values changed to 0")
 print("Goodmorning")
+print("hello world!")
+print("hello world!")
+print("hello first!")
+print("hello second!")
+print("hello third!")
+
+print("hello fourth!")
+print("hello fifth!")
+print("hello sixth!")
+
+print("hello seventh!")
+
+print("hello fourth!")
+
+
+print("hello fourth!")
+
